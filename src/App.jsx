@@ -88,6 +88,7 @@ const App = () => {
           />
           <Route path="/blog/:id" element={<BlogPage />} />
           <Route path="/all-blogs" element={<AllBlogs />} />
+          <Route path="/join" element={<JoinGSN />} />
         </Routes>
       </ScrollHandler>
     </Router>

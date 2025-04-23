@@ -6,7 +6,7 @@ const Blog = () => {
   const posts = blogData.blog;
 
   return (
-    <section className="blog-section py-5">
+    <section className="blog-section py-5" id="blog">
       <div className="blogContainer">
         <h2 className="text-center mb-4">Insights for Smarter Success</h2>
         <div className="row g-4">
